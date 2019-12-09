@@ -240,7 +240,7 @@ body {
 	animation: slideUp 0.5s forwards;
 }
 
-.has-js .js-accordion-tracker dd.active {
+.has-js .js-accordion-tracker .active + dd {
 	animation: slideDown 0.5s forwards;
 }
 
@@ -273,6 +273,7 @@ body {
 		max-height: 0;
 	}
 }
+
 /* FAQ end */
 
 /* Footer Styles */
